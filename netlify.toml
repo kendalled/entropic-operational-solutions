@@ -1,5 +1,5 @@
 [build]
-  command = "node node_modules/nuxt/bin/nuxt.mjs generate"
+  command = "bun run generate"
   publish = "dist"
 
 [build.environment]
