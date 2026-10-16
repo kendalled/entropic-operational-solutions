@@ -1,0 +1,15 @@
+order: 4
+slug: nonprofits
+name: "Nonprofits"
+summary: "Organizations that need financial reporting, operational metrics, accessible websites, and connected administrative systems."
+needs:
+  - "Reporting that boards and funders can follow"
+  - "A website more people can use, tested against agreed criteria"
+  - "Administrative systems that share data instead of duplicating it"
+goal: "Report outcomes clearly and improve access."
+services: [SV06, SV20, SV41]
+watchouts: "Donation tools, accessibility scope, and board metrics."
+image: /images/placeholders/industry-nonprofits.webp
+imageDark: /images/placeholders/industry-nonprofits-dark.webp
+# Describe the final photograph here when it replaces the placeholder.
+imageAlt: ""

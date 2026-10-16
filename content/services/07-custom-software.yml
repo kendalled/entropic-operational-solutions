@@ -1,0 +1,44 @@
+order: 7
+slug: custom-software
+name: "Custom software"
+kind: technical
+icon: CodeBracketSquareIcon
+summary: "Purpose-built tools for when off-the-shelf software stops fitting."
+description: "Requirements and architecture planning, dashboards and admin tools, custom MVPs, and repairs to existing software, for needs that go beyond what available tools can do."
+services:
+  - id: SV35
+    name: "Custom business tool scoping"
+    from: 1500
+    to: 4500
+    billing: Fixed
+    scope: "Requirements, data map, architecture options and phased build estimate."
+    fit: "Startups; nonprofits; venues"
+    drivers: "Stakeholders, systems, complexity"
+    timing: "Scope dependent"
+  - id: SV36
+    name: "Small custom dashboard or admin tool"
+    from: 8000
+    to: 22000
+    billing: Fixed
+    scope: "One data source, 2 views, role access, export and deployment."
+    fit: "Bars; TCG; nonprofits"
+    drivers: "Data quality, permissions, hosting"
+    timing: "Scope dependent"
+  - id: SV37
+    name: "Custom software MVP"
+    from: 20000
+    to: 60000
+    billing: Fixed
+    scope: "Defined core workflow, 2 roles, database, integrations, QA and launch."
+    fit: "Startups; niche SMBs"
+    drivers: "Feature count, security, migrations"
+    timing: "Scope dependent"
+  - id: SV38
+    name: "Software enhancement and rescue"
+    from: 115
+    to: 165
+    billing: Hourly
+    scope: "Bug fixes or scoped features in an existing codebase; discovery billed separately."
+    fit: "Startups; nonprofits"
+    drivers: "Code health, documentation, environment"
+    timing: "As scheduled"

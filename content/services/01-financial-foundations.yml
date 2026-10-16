@@ -1,0 +1,44 @@
+order: 1
+slug: financial-foundations
+name: "Financial foundations"
+kind: advisory
+icon: BanknotesIcon
+summary: "Bookkeeping, forecasting, and pricing work that shows where the money goes and what to do next."
+description: "Clean monthly books, a realistic cash plan, and prices that cover your costs. Each engagement includes a plain-language review or handoff, so the numbers turn into decisions."
+services:
+  - id: SV01
+    name: "Monthly bookkeeping and owner reports"
+    from: 400
+    to: 900
+    billing: Monthly
+    scope: "Monthly reconciliation, P&L, balance sheet and 30-minute review; one entity, up to 3 accounts."
+    fit: "Creators; bars; nonprofits"
+    drivers: "Transaction volume, payroll, inventory, entities"
+    timing: "Ongoing"
+  - id: SV02
+    name: "Books cleanup and catch-up"
+    from: 900
+    to: 3500
+    billing: Fixed
+    scope: "Reconcile up to 3 months, one entity, up to 3 accounts; issue list and handoff."
+    fit: "Creators; bars; startups"
+    drivers: "Months behind, transaction volume, source quality"
+    timing: "Scope dependent"
+  - id: SV03
+    name: "Cash-flow and runway forecast"
+    from: 900
+    to: 2500
+    billing: Fixed
+    scope: "13-week cash plan or 12-month driver model, one revision, owner walkthrough."
+    fit: "Startups; nonprofits; bars"
+    drivers: "Entities, revenue streams, scenario count"
+    timing: "Scope dependent"
+  - id: SV04
+    name: "Pricing and margin review"
+    from: 1200
+    to: 3200
+    billing: Fixed
+    scope: "Review up to 20 products or services, margin model, 90-minute recommendation session."
+    fit: "TCG/tabletop; bars; creators"
+    drivers: "SKU count, COGS quality, data cleanup"
+    timing: "Scope dependent"

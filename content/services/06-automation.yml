@@ -1,0 +1,62 @@
+order: 6
+slug: automation
+name: "Automation"
+kind: technical
+icon: BoltIcon
+summary: "Take repetitive admin work off your team without losing control of it."
+description: "Workflow mapping, no-code automations, multistep workflows, invoice and report automation, and email or member journeys, with testing, documentation, and handling for expected exceptions."
+services:
+  - id: SV29
+    name: "Workflow mapping and automation plan"
+    from: 650
+    to: 1500
+    billing: Fixed
+    scope: "Map one process, identify failure points, prioritize up to 5 automations."
+    fit: "All niches"
+    drivers: "Stakeholders, systems, data access"
+    timing: "Scope dependent"
+  - id: SV30
+    name: "Simple no-code automation"
+    from: 600
+    to: 1500
+    billing: Fixed
+    scope: "One trigger, up to 3 actions, basic validation, test and handoff."
+    fit: "Creators; nonprofits; bars"
+    drivers: "Apps, branching, data quality"
+    timing: "Scope dependent"
+  - id: SV31
+    name: "Multi-step business workflow"
+    from: 1800
+    to: 5000
+    billing: Fixed
+    scope: "Up to 3 apps, branches, retry/error alert, tests and SOP."
+    fit: "Third spaces; TCG; nonprofits"
+    drivers: "App count, logic, approval steps"
+    timing: "Scope dependent"
+  - id: SV32
+    name: "Invoice, receipt or report automation"
+    from: 2200
+    to: 6500
+    billing: Fixed
+    scope: "One document/report type, extraction or export, validation, exception queue."
+    fit: "Bars; nonprofits; creators"
+    drivers: "Formats, accuracy threshold, volume"
+    timing: "Scope dependent"
+  - id: SV33
+    name: "Email and member journey automation"
+    from: 1200
+    to: 4500
+    billing: Fixed
+    scope: "Up to 3 sequences, tagging/segmentation, opt-in checks and QA."
+    fit: "Creators; nonprofits; third spaces"
+    drivers: "Segments, copy, CRM data"
+    timing: "Scope dependent"
+  - id: SV34
+    name: "Automation monitoring and tuning"
+    from: 500
+    to: 1800
+    billing: Monthly
+    scope: "Monitor up to 5 flows, monthly review, up to 4 improvement hours."
+    fit: "All niches"
+    drivers: "Run volume, vendor changes, criticality"
+    timing: "Ongoing"

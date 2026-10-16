@@ -1,0 +1,53 @@
+order: 5
+slug: app-development
+name: "App development"
+kind: technical
+icon: DevicePhoneMobileIcon
+summary: "Prototypes, portals, and internal apps scoped around real workflows."
+description: "Discovery, clickable prototypes, internal operations apps, customer and member portals, and cross-platform mobile MVPs, each scoped by workflows, roles, screens, integrations, and acceptance criteria."
+services:
+  - id: SV24
+    name: "App discovery and prototype"
+    from: 2500
+    to: 7500
+    billing: Fixed
+    scope: "Requirements workshop, feature map, clickable prototype, effort roadmap."
+    fit: "Startups; creators; TCG"
+    drivers: "Roles, workflows, prototype fidelity"
+    timing: "Scope dependent"
+  - id: SV25
+    name: "Internal operations web app"
+    from: 12000
+    to: 35000
+    billing: Fixed
+    scope: "One workflow, 2 roles, dashboard, basic admin, deployment and handoff."
+    fit: "Bars; nonprofits; venues"
+    drivers: "Roles, permissions, integrations, mobile needs"
+    timing: "Scope dependent"
+  - id: SV26
+    name: "Customer or member portal MVP"
+    from: 18000
+    to: 45000
+    billing: Fixed
+    scope: "Auth, profiles, 2 primary workflows, notifications, admin view, launch QA."
+    fit: "Creators; nonprofits; TCG"
+    drivers: "Payments, roles, migration, privacy"
+    timing: "Scope dependent"
+  - id: SV27
+    name: "Cross-platform mobile MVP"
+    from: 25000
+    to: 65000
+    billing: Fixed
+    scope: "iOS/Android shared codebase, up to 4 screens/flows, backend, QA and store submission support."
+    fit: "Startups; communities"
+    drivers: "Offline mode, payments, real-time, devices"
+    timing: "Scope dependent"
+  - id: SV28
+    name: "App feature development"
+    from: 110
+    to: 160
+    billing: Hourly
+    scope: "Enhancements to an existing codebase; estimate and acceptance criteria before work."
+    fit: "Startups; creators"
+    drivers: "Code health, dependency access, feature risk"
+    timing: "As scheduled"

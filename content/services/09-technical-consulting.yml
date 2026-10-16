@@ -1,0 +1,44 @@
+order: 9
+slug: technical-consulting
+name: "Technical consulting"
+kind: technical
+icon: MapIcon
+summary: "Independent advice on what to buy, what to build, and in what order."
+description: "Technology and process assessments, fractional technology advisory, vendor selection, build-versus-buy analysis, and staff workshops."
+services:
+  - id: SV44
+    name: "Technology and process assessment"
+    from: 1200
+    to: 3500
+    billing: Fixed
+    scope: "Up to 5 systems, workflow interviews, risks, roadmap and vendor shortlist."
+    fit: "All niches"
+    drivers: "System count, team size, site visits"
+    timing: "Scope dependent"
+  - id: SV45
+    name: "Fractional technology advisory"
+    from: 1500
+    to: 5000
+    billing: Monthly
+    scope: "Monthly roadmap, vendor review, 2\u20136 working sessions, limited async support."
+    fit: "Startups; nonprofits; venues"
+    drivers: "Meeting cadence, architecture depth"
+    timing: "Ongoing"
+  - id: SV46
+    name: "Vendor and build-vs-buy decision"
+    from: 900
+    to: 2800
+    billing: Fixed
+    scope: "Requirements scorecard, compare up to 4 vendors, total-cost view and recommendation."
+    fit: "Bars; nonprofits; TCG"
+    drivers: "Vendor count, demo effort, data access"
+    timing: "Scope dependent"
+  - id: SV47
+    name: "Technical workshop or staff training"
+    from: 125
+    to: 175
+    billing: Hourly
+    scope: "Architecture, tooling or team enablement; 2-hour minimum, prep billed."
+    fit: "All niches"
+    drivers: "Prep, audience size, custom materials"
+    timing: "As scheduled"

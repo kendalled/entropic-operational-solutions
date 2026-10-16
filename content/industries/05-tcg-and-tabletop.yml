@@ -1,0 +1,15 @@
+order: 5
+slug: tcg-and-tabletop
+name: "TCG and tabletop businesses"
+summary: "Trading card game stores, tabletop retailers, gaming communities, and businesses combining product sales with organized events."
+needs:
+  - "Margins that account for singles, sealed product, and events"
+  - "An online store connected to in-store sales records"
+  - "Event registration that does not live in a spreadsheet"
+goal: "Sell products and run events from connected records."
+services: [SV09, SV10, SV13]
+watchouts: "Variants, preorders, tax, and event inventory."
+image: /images/placeholders/industry-tabletop.webp
+imageDark: /images/placeholders/industry-tabletop-dark.webp
+# Describe the final photograph here when it replaces the placeholder.
+imageAlt: ""

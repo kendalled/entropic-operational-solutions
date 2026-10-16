@@ -1,0 +1,15 @@
+order: 1
+slug: content-creators
+name: "Content creators"
+summary: "Businesses built around content, audiences, memberships, digital products, sponsorships, and multiple revenue streams."
+needs:
+  - "Seeing which revenue streams actually make money"
+  - "Owning the audience relationship instead of renting it"
+  - "Less manual fulfillment for members and customers"
+goal: "Own the audience and reduce manual fulfillment."
+services: [SV08, SV15, SV33]
+watchouts: "Membership tiers, payment tools, and content migration."
+image: /images/placeholders/industry-creators.webp
+imageDark: /images/placeholders/industry-creators-dark.webp
+# Describe the final photograph here when it replaces the placeholder.
+imageAlt: ""

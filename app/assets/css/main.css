@@ -1,0 +1,198 @@
+@import "tailwindcss";
+
+/* Theme is class-based so visitors can override their OS setting. The inline
+   script in nuxt.config.ts sets `.dark` on <html> before first paint. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "InterVariable", ui-sans-serif, system-ui, sans-serif;
+  --font-sans--font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  --font-display: "Instrument Serif", ui-serif, Georgia, serif;
+
+  /* Built around the Orbital logo inks: #711E37 (700) and #A6455D (500). */
+  --color-brand-50: #fcf4f6;
+  --color-brand-100: #f8e8ec;
+  --color-brand-200: #f0cfd8;
+  --color-brand-300: #e3a9b9;
+  --color-brand-400: #cd7790;
+  --color-brand-500: #a6455d;
+  --color-brand-600: #8b2d46;
+  --color-brand-700: #711e37;
+  --color-brand-800: #5d1a2f;
+  --color-brand-900: #4a1626;
+  --color-brand-950: #2b0913;
+
+  --ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
+  --ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  --animate-rise: rise 800ms var(--ease-out-quint) both;
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(--spacing(4));
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+/* Short fade for content revealed by user action (e.g. FAQ answers). */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color-scheme: light;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  /* Lock page scroll while a modal dialog (mobile menu) is open. */
+  html:has(dialog[open]) {
+    overflow: hidden;
+  }
+
+  ::selection {
+    background-color: var(--color-brand-100);
+    color: var(--color-brand-900);
+  }
+
+  .dark ::selection {
+    background-color: rgb(255 255 255 / 0.2);
+    color: white;
+  }
+}
+
+/* Scroll-triggered entrances (see app/plugins/reveal.ts). Content stays
+   visible without JavaScript and for visitors who prefer reduced motion. */
+@media (prefers-reduced-motion: no-preference) {
+  .js [data-reveal] {
+    opacity: 0;
+    transform: translateY(--spacing(5));
+    transition:
+      opacity 700ms var(--ease-out-quint),
+      transform 700ms var(--ease-out-quint);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+
+  .js [data-reveal][data-revealed] {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media print {
+  .js [data-reveal] {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Route transitions: quick fade out, short rise in. */
+.page-enter-active {
+  transition:
+    opacity 280ms var(--ease-out-quart),
+    transform 280ms var(--ease-out-quart);
+}
+
+.page-leave-active {
+  transition: opacity 140ms var(--ease-out-quart);
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(--spacing(1.5));
+}
+
+.page-leave-to {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-enter-active,
+  .page-leave-active {
+    transition: none;
+  }
+}
+
+/* Theme switch: the new theme fades in over the old one as a single layer,
+   so colors never animate property-by-property. */
+::view-transition-old(root) {
+  animation: none;
+}
+
+::view-transition-new(root) {
+  animation: theme-fade-in 320ms var(--ease-out-quart);
+}
+
+@keyframes theme-fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-new(root) {
+    animation: none;
+  }
+}
+
+/* Mobile menu (native <dialog>). Opening uses the [open] transition; closing
+   falls back to the shorter base transition. Panel and backdrop share timing. */
+.mobile-menu {
+  opacity: 0;
+  transform: translateY(--spacing(-2));
+  transition:
+    opacity 160ms var(--ease-out-quart),
+    transform 160ms var(--ease-out-quart),
+    overlay 160ms allow-discrete,
+    display 160ms allow-discrete;
+}
+
+.mobile-menu[open] {
+  opacity: 1;
+  transform: none;
+  transition-duration: 220ms;
+}
+
+.mobile-menu::backdrop {
+  background-color: rgb(12 10 9 / 0);
+  transition:
+    background-color 160ms var(--ease-out-quart),
+    overlay 160ms allow-discrete,
+    display 160ms allow-discrete;
+}
+
+.mobile-menu[open]::backdrop {
+  background-color: rgb(12 10 9 / 0.35);
+  transition-duration: 220ms;
+}
+
+@starting-style {
+  .mobile-menu[open] {
+    opacity: 0;
+    transform: translateY(--spacing(-2));
+  }
+
+  .mobile-menu[open]::backdrop {
+    background-color: rgb(12 10 9 / 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mobile-menu,
+  .mobile-menu::backdrop {
+    transition: none;
+  }
+}

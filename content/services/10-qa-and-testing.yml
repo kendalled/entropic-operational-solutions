@@ -1,0 +1,44 @@
+order: 10
+slug: qa-and-testing
+name: "QA and testing"
+kind: technical
+icon: ClipboardDocumentCheckIcon
+summary: "Catch broken journeys before your customers do."
+description: "Website launch testing, application regression cycles, automated smoke tests, and usability or checkout reviews."
+services:
+  - id: SV48
+    name: "Website launch QA"
+    from: 650
+    to: 1800
+    billing: Fixed
+    scope: "Key journeys on 3 browsers and 2 viewport sizes; defects and one retest."
+    fit: "All niches"
+    drivers: "Page count, forms, integrations"
+    timing: "Scope dependent"
+  - id: SV49
+    name: "App regression test cycle"
+    from: 1500
+    to: 5000
+    billing: Fixed
+    scope: "Test plan, up to 30 cases, defect log, retest and release summary."
+    fit: "Startups; portals"
+    drivers: "Roles, platforms, test data"
+    timing: "Scope dependent"
+  - id: SV50
+    name: "Automated smoke-test starter suite"
+    from: 2200
+    to: 6500
+    billing: Fixed
+    scope: "Up to 10 critical scenarios, CI run, reporting and handoff."
+    fit: "Startups; TCG ecommerce"
+    drivers: "Environment, login flows, flaky UI"
+    timing: "Scope dependent"
+  - id: SV51
+    name: "Usability and checkout review"
+    from: 1000
+    to: 3200
+    billing: Fixed
+    scope: "Heuristic review of 2 journeys, 5 moderated sessions or expert walk-through, prioritized fixes."
+    fit: "Creators; TCG; nonprofits"
+    drivers: "Recruiting, incentives, journeys"
+    timing: "Scope dependent"

@@ -1,0 +1,53 @@
+order: 8
+slug: analytics-and-reporting
+name: "Analytics and reporting"
+kind: technical
+icon: PresentationChartLineIcon
+summary: "Reliable measurement and owner dashboards that support better decisions."
+description: "Analytics audits, measurement plans, GA4 and conversion tracking, KPI dashboards, and data pipelines that bring financial and operational numbers into one view."
+services:
+  - id: SV39
+    name: "Analytics audit and measurement plan"
+    from: 900
+    to: 2500
+    billing: Fixed
+    scope: "Audit one website/property, event map, prioritized fixes and walkthrough."
+    fit: "Creators; nonprofits; venues"
+    drivers: "Properties, conversion paths, tag hygiene"
+    timing: "Scope dependent"
+  - id: SV40
+    name: "GA4 and conversion tracking setup"
+    from: 1500
+    to: 5000
+    billing: Fixed
+    scope: "One property, up to 10 events, consent-aware tags and validation."
+    fit: "Creators; TCG; bars"
+    drivers: "Platforms, checkout, privacy setup"
+    timing: "Scope dependent"
+  - id: SV41
+    name: "Owner KPI dashboard"
+    from: 1800
+    to: 6000
+    billing: Fixed
+    scope: "Up to 3 sources, 12 KPIs, one dashboard, metric dictionary and training."
+    fit: "Bars; nonprofits; creators"
+    drivers: "Source access, data joins, refresh"
+    timing: "Scope dependent"
+  - id: SV42
+    name: "Financial and operations data pipeline"
+    from: 4500
+    to: 14000
+    billing: Fixed
+    scope: "Up to 3 source systems, normalized metrics, refresh schedule and QA checks."
+    fit: "Startups; TCG; venues"
+    drivers: "API limits, historical load, data quality"
+    timing: "Scope dependent"
+  - id: SV43
+    name: "Monthly KPI review and reporting"
+    from: 500
+    to: 1600
+    billing: Monthly
+    scope: "Dashboard refresh, 1-page findings, 60-minute review; existing data sources."
+    fit: "Nonprofits; bars; creators"
+    drivers: "Metric changes, data cleanup, stakeholders"
+    timing: "Ongoing"

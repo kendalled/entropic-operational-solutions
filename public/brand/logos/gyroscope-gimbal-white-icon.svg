@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+<title id="title">Entropic Operational Solutions — gimbal gyroscope, white</title>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="64" cy="64" r="43" stroke="#FFFFFF" stroke-width="4"/>
+  <ellipse cx="64" cy="64" rx="21" ry="43" transform="rotate(-34 64 64)" stroke="#FFFFFF" stroke-width="3.5"/>
+  <path d="M27 49C38 37 64 41 85 55C106 69 113 84 102 90C91 97 67 90 46 76C25 62 17 49 27 44" stroke="#FFFFFF" stroke-width="4"/>
+  <ellipse cx="64" cy="64" rx="11" ry="21" transform="rotate(-34 64 64)" stroke="#FFFFFF" stroke-width="4"/>
+  <path d="M34 20L94 108" stroke="#FFFFFF" stroke-width="4"/>
+  <circle cx="34" cy="20" r="4" fill="#FFFFFF" stroke="none"/>
+  <circle cx="94" cy="108" r="4" fill="#FFFFFF" stroke="none"/>
+  <circle cx="64" cy="64" r="5" fill="#FFFFFF" stroke="none"/>
+</g>
+</svg>

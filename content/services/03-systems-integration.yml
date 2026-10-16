@@ -1,0 +1,62 @@
+order: 3
+slug: systems-integration
+name: "Systems integration"
+kind: technical
+icon: ArrowsRightLeftIcon
+summary: "Connect the tools you already pay for so data is entered once."
+description: "Accounting and point-of-sale links, CRM and email syncs, payment and subscription connections, migrations, and custom API work, with field mapping, failure alerts, and monitoring."
+services:
+  - id: SV13
+    name: "Accounting\u2013POS reconciliation link"
+    from: 2500
+    to: 6500
+    billing: Fixed
+    scope: "Connect one POS and one accounting system; mapping, exception log, test month."
+    fit: "Bars; TCG; third spaces"
+    drivers: "API quality, sales tax, inventory detail"
+    timing: "Scope dependent"
+  - id: SV14
+    name: "CRM\u2013email or booking integration"
+    from: 1800
+    to: 5000
+    billing: Fixed
+    scope: "Two platforms, field mapping, one sync direction, failure alerts and handoff."
+    fit: "Creators; nonprofits; venues"
+    drivers: "Contacts, consent fields, duplicate rules"
+    timing: "Scope dependent"
+  - id: SV15
+    name: "Payment and subscription integration"
+    from: 3000
+    to: 8000
+    billing: Fixed
+    scope: "Payment provider connection, webhook events, refunds, test transactions and handoff."
+    fit: "Creators; startups; nonprofits"
+    drivers: "Billing rules, tax, dunning, legacy data"
+    timing: "Scope dependent"
+  - id: SV16
+    name: "Data migration between business systems"
+    from: 2500
+    to: 9000
+    billing: Fixed
+    scope: "Map up to 15 fields and 25,000 records; dry run, validation, cutover plan."
+    fit: "Nonprofits; startups; TCG"
+    drivers: "Record quality, attachments, downtime"
+    timing: "Scope dependent"
+  - id: SV17
+    name: "Custom API or webhook connection"
+    from: 3500
+    to: 10000
+    billing: Fixed
+    scope: "One API pair, up to 5 endpoints/events, auth, retry handling, tests and docs."
+    fit: "Startups; creators; venues"
+    drivers: "API limits, auth, bidirectional sync"
+    timing: "Scope dependent"
+  - id: SV18
+    name: "Integration monitoring and repair"
+    from: 450
+    to: 1500
+    billing: Monthly
+    scope: "Monitor up to 3 production flows, alert review, up to 3 repair hours monthly."
+    fit: "All niches"
+    drivers: "Flow count, uptime needs, volume"
+    timing: "Ongoing"

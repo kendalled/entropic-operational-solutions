@@ -1,0 +1,53 @@
+order: 4
+slug: web-accessibility
+name: "Web accessibility"
+kind: technical
+icon: ViewfinderCircleIcon
+summary: "Reviews, audits, and fixes that make your site easier for more people to use."
+description: "Automated checks plus manual keyboard and screen-reader testing against criteria agreed at the start of the engagement. Audits and fixes do not guarantee legal compliance."
+services:
+  - id: SV19
+    name: "Accessibility quick review"
+    from: 750
+    to: 1500
+    billing: Fixed
+    scope: "Automated scan plus manual review of up to 5 representative pages; issue list."
+    fit: "Nonprofits; creators; bars"
+    drivers: "Template count, interactive features"
+    timing: "Scope dependent"
+  - id: SV20
+    name: "Full website accessibility audit"
+    from: 2500
+    to: 6500
+    billing: Fixed
+    scope: "Manual keyboard/screen-reader testing of up to 10 templates and 2 key flows; prioritized report."
+    fit: "Nonprofits; third spaces; startups"
+    drivers: "Templates, forms, media, language"
+    timing: "Scope dependent"
+  - id: SV21
+    name: "Accessibility remediation sprint"
+    from: 3500
+    to: 9000
+    billing: Fixed
+    scope: "Fix agreed high-priority issues across up to 8 templates; retest and change log."
+    fit: "All niches"
+    drivers: "Issue count, third-party widgets, design changes"
+    timing: "Scope dependent"
+  - id: SV22
+    name: "Accessible component or form build"
+    from: 1200
+    to: 4200
+    billing: Fixed
+    scope: "One complex component/form, keyboard behavior, labels, error states, tests."
+    fit: "Nonprofits; startups; creators"
+    drivers: "State count, validation, design system"
+    timing: "Scope dependent"
+  - id: SV23
+    name: "Accessibility retest and monitoring"
+    from: 350
+    to: 1200
+    billing: Monthly
+    scope: "Monthly scan, one manual flow check, issue log and up to 2 fixes."
+    fit: "Nonprofits; venues"
+    drivers: "Pages, releases, content volume"
+    timing: "Ongoing"

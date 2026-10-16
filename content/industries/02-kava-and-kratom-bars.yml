@@ -1,0 +1,15 @@
+order: 2
+slug: kava-and-kratom-bars
+name: "Kava and kratom bars"
+summary: "Businesses with physical locations, point-of-sale systems, inventory, events, and recurring customer relationships."
+needs:
+  - "Monthly numbers you can read and act on"
+  - "Point-of-sale data that lands in the books without retyping"
+  - "A website that keeps hours, menus, and events current"
+goal: "Connect in-person sales to clear financials and a useful online presence."
+services: [SV01, SV13, SV06]
+watchouts: "POS access, age-related site requirements, and inventory rules."
+image: /images/placeholders/industry-bars.webp
+imageDark: /images/placeholders/industry-bars-dark.webp
+# Describe the final photograph here when it replaces the placeholder.
+imageAlt: ""

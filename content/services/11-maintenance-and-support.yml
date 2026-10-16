@@ -1,0 +1,44 @@
+order: 11
+slug: maintenance-and-support
+name: "Maintenance and support"
+kind: technical
+icon: WrenchScrewdriverIcon
+summary: "Ongoing care with defined coverage, included hours, and response expectations."
+description: "Website care, integration support, application and software maintenance, and scheduled troubleshooting on monthly or hourly terms."
+services:
+  - id: SV52
+    name: "Essential website care"
+    from: 250
+    to: 650
+    billing: Monthly
+    scope: "Updates, uptime check, backup check, up to 1 content/change hour."
+    fit: "Bars; creators; nonprofits"
+    drivers: "CMS, plugins, traffic, SLA"
+    timing: "Ongoing"
+  - id: SV53
+    name: "Growth website and integration support"
+    from: 750
+    to: 2200
+    billing: Monthly
+    scope: "Monthly checks, reporting, up to 5 change/repair hours, priority queue."
+    fit: "Third spaces; TCG; nonprofits"
+    drivers: "Integrations, ecommerce, response time"
+    timing: "Ongoing"
+  - id: SV54
+    name: "App or software support"
+    from: 1200
+    to: 4500
+    billing: Monthly
+    scope: "Monitoring, dependency updates, incident triage, 6\u201320 support hours."
+    fit: "Startups; portals"
+    drivers: "Hosting, uptime, releases, usage"
+    timing: "Ongoing"
+  - id: SV55
+    name: "Ad hoc technical support"
+    from: 110
+    to: 155
+    billing: Hourly
+    scope: "Scheduled fixes and troubleshooting; 2-hour minimum."
+    fit: "All niches"
+    drivers: "Urgency, access, legacy stack"
+    timing: "As scheduled"

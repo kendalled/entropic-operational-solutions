@@ -1,0 +1,15 @@
+order: 3
+slug: third-spaces
+name: "Third spaces"
+summary: "Community gathering places, clubs, venues, and other businesses that support events, reservations, memberships, and repeat visits."
+needs:
+  - "Event and reservation flows that do not need babysitting"
+  - "One customer list across booking, email, and memberships"
+  - "Fewer manual steps between a booking and a confirmed visit"
+goal: "Fill events and manage repeat visits."
+services: [SV10, SV14, SV31]
+watchouts: "Reservations, capacity limits, and customer consent."
+image: /images/placeholders/industry-third-spaces.webp
+imageDark: /images/placeholders/industry-third-spaces-dark.webp
+# Describe the final photograph here when it replaces the placeholder.
+imageAlt: ""

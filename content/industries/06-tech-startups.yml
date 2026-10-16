@@ -1,0 +1,15 @@
+order: 6
+slug: tech-startups
+name: "Tech startups"
+summary: "Businesses that need runway planning, product discovery, prototypes, software development, and ongoing technical support."
+needs:
+  - "A runway plan grounded in real drivers"
+  - "Validating an idea before committing to a full build"
+  - "A scoped MVP with clear acceptance criteria"
+goal: "Plan runway and validate the product before broad development."
+services: [SV03, SV24, SV37]
+watchouts: "User roles, architecture, and release testing."
+image: /images/placeholders/industry-startups.webp
+imageDark: /images/placeholders/industry-startups.webp
+# Describe the final photograph here when it replaces the placeholder.
+imageAlt: ""

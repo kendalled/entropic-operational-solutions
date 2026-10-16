@@ -1,0 +1,80 @@
+order: 2
+slug: web-development
+name: "Web development"
+kind: technical
+icon: GlobeAltIcon
+summary: "Websites, stores, and membership sites that are easy for your team to update."
+description: "Landing pages, business websites, redesigns, membership sites, small storefronts, and event or reservation sites, built responsive, tested before launch, and handed off with training."
+services:
+  - id: SV05
+    name: "Landing page or campaign microsite"
+    from: 1500
+    to: 4000
+    billing: Fixed
+    scope: "One responsive page, lead form, analytics event, accessibility basics and one revision."
+    fit: "Creators; nonprofits; startups"
+    drivers: "Copy/assets, custom animation, integrations"
+    timing: "Scope dependent"
+  - id: SV06
+    name: "Core business website"
+    from: 4500
+    to: 10000
+    billing: Fixed
+    scope: "Up to 6 pages, CMS, contact flow, responsive design, basic SEO and launch QA."
+    fit: "Bars; third spaces; nonprofits"
+    drivers: "Page count, copywriting, booking, multilingual"
+    timing: "Scope dependent"
+  - id: SV07
+    name: "Website redesign and migration"
+    from: 6500
+    to: 18000
+    billing: Fixed
+    scope: "Up to 10 page templates, content migration plan, redirects, CMS training and launch QA."
+    fit: "Nonprofits; third spaces; TCG"
+    drivers: "Content volume, integrations, redirects"
+    timing: "Scope dependent"
+  - id: SV08
+    name: "Creator membership or content site"
+    from: 7000
+    to: 20000
+    billing: Fixed
+    scope: "Membership tiers, protected content, payments, 2 key journeys and admin handoff."
+    fit: "Creators; nonprofits"
+    drivers: "Tier rules, content migration, payment platform"
+    timing: "Scope dependent"
+  - id: SV09
+    name: "Small ecommerce storefront"
+    from: 6500
+    to: 18000
+    billing: Fixed
+    scope: "Store setup, up to 30 products, checkout, tax/shipping rules, analytics and training."
+    fit: "TCG/tabletop; creators; bars"
+    drivers: "SKUs, variants, subscriptions, fulfillment"
+    timing: "Scope dependent"
+  - id: SV10
+    name: "Events, reservations and community site"
+    from: 5500
+    to: 15000
+    billing: Fixed
+    scope: "Event calendar, registration/booking, email confirmations and admin workflow."
+    fit: "Third spaces; TCG; bars"
+    drivers: "Ticket types, waitlists, POS sync"
+    timing: "Scope dependent"
+  - id: SV11
+    name: "Website speed and technical SEO cleanup"
+    from: 1200
+    to: 4500
+    billing: Fixed
+    scope: "Audit, prioritized fixes for up to 8 templates, before/after measurements."
+    fit: "All niches"
+    drivers: "CMS condition, image count, hosting"
+    timing: "Scope dependent"
+  - id: SV12
+    name: "Content and CMS training"
+    from: 600
+    to: 1800
+    billing: Fixed
+    scope: "2-hour admin training, edit guide, up to 4 content templates."
+    fit: "Nonprofits; creators; bars"
+    drivers: "Staff count, platform complexity"
+    timing: "Scope dependent"

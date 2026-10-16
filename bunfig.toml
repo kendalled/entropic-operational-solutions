@@ -1,0 +1,3 @@
+[run]
+# Run Nuxt and its subprocesses with Bun, including executables with Node shebangs.
+bun = true
